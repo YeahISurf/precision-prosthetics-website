@@ -10,13 +10,13 @@ import {
   Button,
   Flex,
   Link,
+  Heading,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { motion } from 'framer-motion';
 
 import PageContainer from '../components/PageContainer';
-import HeroSection from '../components/HeroSection';
 import SectionHeading from '../components/SectionHeading';
 // Import FAQ data from data file
 import { faqCategories } from '../data/faqData';
@@ -37,12 +37,22 @@ function FAQ() {
 
   return (
     <PageContainer>
-      <HeroSection
-        title="Frequently Asked Questions"
-        subtitle="Find answers to common questions about prosthetics, orthotics, and our services. If you don't see the information you're looking for, our team is always here to help."
-        backgroundImage="https://i.imgur.com/vC5vsGH.jpg"
-        height="50vh"
-      />
+      <Box bg="brand.600" py={16} textAlign="center" color="white">
+        <Container maxW="container.lg">
+          <Heading
+            as="h1"
+            size={['xl', '2xl']}
+            fontWeight="bold"
+            mb={4}
+            lineHeight="1.2"
+          >
+            Frequently Asked Questions
+          </Heading>
+          <Text fontSize={['lg', 'xl']} maxW="700px" mx="auto">
+            Find answers to common questions about prosthetics, orthotics, and our services. If you don't see the information you're looking for, our team is always here to help.
+          </Text>
+        </Container>
+      </Box>
 
       <Box py={16}>
         <Container maxW="container.lg">

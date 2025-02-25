@@ -46,7 +46,7 @@ function Home() {
         ctaLink="/services"
         secondaryCtaText="Get In Touch"
         secondaryCtaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1584472095996-4a50e80d3600?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
         height="100vh"
       />
 
