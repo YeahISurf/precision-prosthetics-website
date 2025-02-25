@@ -14,18 +14,19 @@ import { motion } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 import { FaCheck, FaMedal, FaHandHoldingHeart, FaLightbulb } from 'react-icons/fa';
 
+import PageContainer from '../components/PageContainer';
 import HeroSection from '../components/HeroSection';
 import SectionHeading from '../components/SectionHeading';
 import FeatureWithIcon from '../components/FeatureWithIcon';
 
 function About() {
   return (
-    <Box>
+    <PageContainer noTopPadding={true}>
       {/* Hero Section */}
       <HeroSection
         title="About Precision Prosthetics"
         subtitle="Learn about our mission, our values, and the dedicated team behind our innovative prosthetic solutions."
-        backgroundImage="https://source.unsplash.com/random/1920x1080/?medical,team"
+        backgroundImage="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
         height="60vh"
       />
 
@@ -51,7 +52,7 @@ function About() {
                   zIndex={-1}
                 />
                 <Image
-                  src="https://source.unsplash.com/random/600x400/?medical,professionals"
+                  src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                   alt="Our Team"
                   borderRadius="xl"
                   boxShadow="xl"
@@ -194,7 +195,7 @@ function About() {
               name="Dr. Emily Carter"
               title="Lead Prosthetist"
               bio="With over 15 years of experience, Dr. Carter is a pioneer in prosthetic design and patient care."
-              image="https://source.unsplash.com/random/400x500/?portrait,woman,professional"
+              image="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={0}
             />
 
@@ -202,7 +203,7 @@ function About() {
               name="Mark Thompson"
               title="Rehabilitation Specialist"
               bio="Mark specializes in helping patients adapt to their new prosthetics and achieve their mobility goals."
-              image="https://source.unsplash.com/random/400x500/?portrait,man,professional"
+              image="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={1}
             />
 
@@ -210,7 +211,7 @@ function About() {
               name="Dr. Sarah Johnson"
               title="Orthotic Specialist"
               bio="Dr. Johnson brings expertise in creating customized orthotic solutions for patients with diverse needs."
-              image="https://source.unsplash.com/random/400x500/?portrait,woman,doctor"
+              image="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={2}
             />
 
@@ -218,7 +219,7 @@ function About() {
               name="James Wilson"
               title="Prosthetic Technician"
               bio="James combines technical precision with an artistic eye to create prosthetics that look and feel natural."
-              image="https://source.unsplash.com/random/400x500/?portrait,man,technician"
+              image="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={3}
             />
 
@@ -226,7 +227,7 @@ function About() {
               name="Lisa Chen"
               title="Patient Care Coordinator"
               bio="Lisa ensures a seamless experience for our patients, from initial consultation to ongoing care."
-              image="https://source.unsplash.com/random/400x500/?portrait,woman,professional,asian"
+              image="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={4}
             />
 
@@ -234,13 +235,13 @@ function About() {
               name="Dr. Michael Rodriguez"
               title="Research & Development"
               bio="Dr. Rodriguez leads our R&D efforts, exploring new technologies to advance prosthetic solutions."
-              image="https://source.unsplash.com/random/400x500/?portrait,man,scientist"
+              image="https://images.unsplash.com/photo-1542190891-2093d38760f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               index={5}
             />
           </Grid>
         </Container>
       </Box>
-    </Box>
+    </PageContainer>
   );
 }
 

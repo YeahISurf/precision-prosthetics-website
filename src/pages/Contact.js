@@ -22,6 +22,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import emailjs from 'emailjs-com';
 
+import PageContainer from '../components/PageContainer';
 import SectionHeading from '../components/SectionHeading';
 
 function Contact() {
@@ -61,7 +62,7 @@ function Contact() {
   });
 
   return (
-    <Box>
+    <PageContainer noTopPadding={true}>
       {/* Hero Section */}
       <Box
         bg="brand.500"
@@ -342,7 +343,7 @@ function Contact() {
           </Grid>
         </Container>
       </Box>
-    </Box>
+    </PageContainer>
   );
 }
 
