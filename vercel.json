@@ -33,6 +33,14 @@
     }
   ],
   "env": {
-    "CI": "false"
+    "CI": "false",
+    "SKIP_PREFLIGHT_CHECK": "true",
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "CI": "false",
+      "SKIP_PREFLIGHT_CHECK": "true"
+    }
   }
 }
