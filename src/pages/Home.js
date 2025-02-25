@@ -14,6 +14,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { FaClipboardCheck, FaHeartbeat, FaTools, FaChartLine } from 'react-icons/fa';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 
+import PageContainer from '../components/PageContainer';
 import HeroSection from '../components/HeroSection';
 import SectionHeading from '../components/SectionHeading';
 import PremiumCard from '../components/PremiumCard';
@@ -41,7 +42,7 @@ function Home() {
   const itemsPerRow = useBreakpointValue({ base: 1, md: 2, lg: 3 });
 
   return (
-    <Box>
+    <PageContainer noTopPadding={true}>
       {/* Hero Section */}
       <HeroSection
         title="Advanced Prosthetic Solutions for a Better Tomorrow"
@@ -50,7 +51,7 @@ function Home() {
         ctaLink="/services"
         secondaryCtaText="Get In Touch"
         secondaryCtaLink="/contact"
-        backgroundImage="https://source.unsplash.com/random/1920x1080/?prosthetic,technology"
+        backgroundImage="https://images.unsplash.com/photo-1542736705-53f0131d1e98?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
         height="90vh"
       />
 
@@ -106,7 +107,7 @@ function Home() {
             templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }}
             gap={8}
           >
-            {services.map((service, index) => (
+            {services.slice(0, 3).map((service, index) => (
               <motion.div
                 key={service.id}
                 custom={index}
@@ -166,7 +167,7 @@ function Home() {
             templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }}
             gap={8}
           >
-            {testimonials.map((testimonial, index) => (
+            {testimonials.slice(0, 3).map((testimonial, index) => (
               <motion.div
                 key={testimonial.id}
                 custom={index}
@@ -202,7 +203,7 @@ function Home() {
           left={0}
           width="100%"
           height="100%"
-          bgImage="url('https://source.unsplash.com/random/1920x1080/?medical,technology')"
+          bgImage="url('https://images.unsplash.com/photo-1590650153855-d9e808231d41?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
           bgSize="cover"
           bgPosition="center"
           filter="brightness(0.4)"
@@ -274,7 +275,7 @@ function Home() {
           </motion.div>
         </Container>
       </Box>
-    </Box>
+    </PageContainer>
   );
 }
 
