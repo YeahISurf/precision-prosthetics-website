@@ -46,8 +46,8 @@ function Home() {
         ctaLink="/services"
         secondaryCtaText="Get In Touch"
         secondaryCtaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1542736705-53f0131d1e98?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
-        height="90vh"
+        backgroundImage="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+        height="100vh"
       />
 
       {/* Key Features Section */}
@@ -198,7 +198,7 @@ function Home() {
           left={0}
           width="100%"
           height="100%"
-          bgImage="url('https://images.unsplash.com/photo-1590650153855-d9e808231d41?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          bgImage="url('https://images.unsplash.com/photo-1629131515837-638a7a942ba1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
           bgSize="cover"
           bgPosition="center"
           filter="brightness(0.4)"

@@ -10,7 +10,7 @@ function HeroSection({
   secondaryCtaText,
   secondaryCtaLink,
   backgroundImage,
-  height = '90vh',
+  height = '100vh',
   overlay = true,
 }) {
   const containerVariants = {
