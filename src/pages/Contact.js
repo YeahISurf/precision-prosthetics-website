@@ -16,16 +16,14 @@ import {
   useBreakpointValue,
   Stack,
   useToast,
-  AspectRatio,
-  Link,
 } from '@chakra-ui/react';
-import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { motion } from 'framer-motion';
+import { Link as RouterLink } from 'react-router-dom';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
+import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import emailjs from 'emailjs-com';
-import { Link as RouterLink } from 'react-router-dom';
 
 import PageContainer from '../components/PageContainer';
 import SectionHeading from '../components/SectionHeading';
@@ -140,14 +138,14 @@ function Contact() {
                 <ContactInfoItem
                   icon={FaMapMarkerAlt}
                   title="Our Location"
-                  content="123 Wilshire Blvd, Suite 100"
-                  subContent="Los Angeles, CA 90024"
+                  content="123 Main Street, Suite 100"
+                  subContent="City, State, ZIP Code"
                 />
 
                 <ContactInfoItem
                   icon={FaPhoneAlt}
                   title="Phone"
-                  content="(310) 555-7890"
+                  content="(123) 456-7890"
                   subContent="Monday to Friday, 9am to 5pm"
                 />
 
@@ -166,20 +164,18 @@ function Contact() {
                 />
               </Stack>
 
-              {/* Google Maps Embed */}
-              <Box mt={10}>
-                <AspectRatio ratio={16 / 9} borderRadius="xl" overflow="hidden" boxShadow="md">
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52861.03350688354!2d-118.49633233084368!3d34.06281109485559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc35fbd217ef%3A0xcf1ef9352700d95c!2sBeverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1708889619500!5m2!1sen!2sus" 
-                    width="600" 
-                    height="450" 
-                    style={{border:0}} 
-                    allowFullScreen="" 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Precision Prosthetics Los Angeles Location"
-                  />
-                </AspectRatio>
+              {/* Map Placeholder */}
+              <Box
+                mt={10}
+                height="300px"
+                bg="gray.200"
+                borderRadius="xl"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                boxShadow="md"
+              >
+                <Text color="gray.500">Google Maps Embed Would Go Here</Text>
               </Box>
             </Box>
 
@@ -361,18 +357,6 @@ function Contact() {
               index={3}
             />
           </Grid>
-          
-          <Flex justify="center" mt={10}>
-            <Button
-              as={RouterLink}
-              to="/faq"
-              size="lg"
-              colorScheme="brand"
-              rightIcon={<ArrowForwardIcon />}
-            >
-              View All FAQs
-            </Button>
-          </Flex>
         </Container>
       </Box>
     </PageContainer>
