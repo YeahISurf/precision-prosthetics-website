@@ -4,7 +4,7 @@ export const blogPosts = [
     title: 'New Advancements in Prosthetic Technology',
     excerpt: 'Learn about the latest innovations in prosthetic limbs, including AI-driven adaptive systems and neural interfaces.',
     date: 'October 10, 2023',
-    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
   {
@@ -12,7 +12,7 @@ export const blogPosts = [
     title: 'Patient Success Story: Overcoming Challenges',
     excerpt: 'Read about how one of our patients regained their independence through determination and innovative prosthetic solutions.',
     date: 'September 25, 2023',
-    image: 'https://images.unsplash.com/photo-1578496479932-143f716d0ac9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
   {
@@ -20,7 +20,7 @@ export const blogPosts = [
     title: 'How to Care for Your Prosthetic Device',
     excerpt: 'Tips and best practices for maintaining your prosthetic to ensure optimal performance and longevity.',
     date: 'September 10, 2023',
-    image: 'https://images.unsplash.com/photo-1580281657702-257584239a42?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1629131726692-93854e0592c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
   {
@@ -28,7 +28,7 @@ export const blogPosts = [
     title: 'The Future of Myoelectric Prosthetics',
     excerpt: 'Explore how advances in sensor technology and machine learning are revolutionizing myoelectric prosthetic control.',
     date: 'August 28, 2023',
-    image: 'https://images.unsplash.com/photo-1529078155058-5d716f45d604?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1629138140017-8dfeed8c0e5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
   {
@@ -36,7 +36,7 @@ export const blogPosts = [
     title: 'Pediatric Prosthetics: Growing with Your Child',
     excerpt: 'Understanding the unique considerations and solutions for children who need prosthetic devices.',
     date: 'August 15, 2023',
-    image: 'https://images.unsplash.com/photo-1571429382996-8f4196a092e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1602268394861-c5801305e165?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
   {
@@ -44,7 +44,7 @@ export const blogPosts = [
     title: 'Adaptive Sports and Prosthetics',
     excerpt: 'How specialized prosthetic devices are enabling athletes to compete at the highest levels in various sports.',
     date: 'July 30, 2023',
-    image: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1589777834048-d3da248d36b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
     content: 'Full blog post content goes here...',
   },
 ];
