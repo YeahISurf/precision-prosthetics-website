@@ -139,7 +139,7 @@ The chat progressed through several iterations to enhance the website's premium 
 ## Repository Information
 
 - **Repository**: [YeahISurf/precision-prosthetics-website](https://github.com/YeahISurf/precision-prosthetics-website)
-- **Deployment**: Vercel (URL to be added)
+- **Deployment**: Vercel ((https://precision-prosthetics-website.vercel.app/)
 
 ## Setup Instructions
 
