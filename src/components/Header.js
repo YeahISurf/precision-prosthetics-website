@@ -47,6 +47,7 @@ function Header() {
     { name: 'Testimonials', path: '/testimonials' },
     { name: 'Blog', path: '/blog' },
     { name: 'Resources', path: '/resources' },
+    { name: 'FAQ', path: '/faq' }, // Add the new FAQ link
   ];
 
   return (

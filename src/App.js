@@ -10,6 +10,7 @@ import Testimonials from './pages/Testimonials';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Resources from './pages/Resources';
+import FAQ from './pages/FAQ'; // Import the new FAQ page
 import ScrollToTop from './components/ScrollToTop';
 import customTheme from './theme';
 import { Global, css } from '@emotion/react';
@@ -51,6 +52,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/faq" element={<FAQ />} /> {/* Add new FAQ route */}
         </Routes>
         <Footer />
       </Router>
