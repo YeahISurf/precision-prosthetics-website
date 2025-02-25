@@ -15,7 +15,6 @@ import {
   HStack,
   useDisclosure,
   Container,
-  Image,
 } from '@chakra-ui/react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { HamburgerIcon, PhoneIcon } from '@chakra-ui/icons';

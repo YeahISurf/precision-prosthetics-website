@@ -1,4 +1,4 @@
-import { Box, Heading, Grid, Container } from '@chakra-ui/react';
+import { Box, Grid, Container } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import ProductCard from '../components/ProductCard';
 import { products } from '../data/products';

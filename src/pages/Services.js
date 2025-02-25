@@ -1,4 +1,4 @@
-import { Box, Heading, Grid, Container } from '@chakra-ui/react';
+import { Box, Grid, Container } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data/services';

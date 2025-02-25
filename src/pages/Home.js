@@ -5,7 +5,6 @@ import {
   Flex,
   Text,
   Button,
-  Icon,
   Stack,
   useBreakpointValue,
 } from '@chakra-ui/react';
@@ -22,7 +21,6 @@ import PremiumTestimonial from '../components/PremiumTestimonial';
 import FeatureWithIcon from '../components/FeatureWithIcon';
 import { services } from '../data/services';
 import { testimonials } from '../data/testimonials';
-import { blogPosts } from '../data/blogPosts';
 
 function Home() {
   // Animation variants
@@ -38,8 +36,6 @@ function Home() {
       },
     }),
   };
-
-  const itemsPerRow = useBreakpointValue({ base: 1, md: 2, lg: 3 });
 
   return (
     <PageContainer noTopPadding={true}>

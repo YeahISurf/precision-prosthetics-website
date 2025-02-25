@@ -17,7 +17,6 @@ import { FaCheck, FaMedal, FaHandHoldingHeart, FaLightbulb } from 'react-icons/f
 import PageContainer from '../components/PageContainer';
 import HeroSection from '../components/HeroSection';
 import SectionHeading from '../components/SectionHeading';
-import FeatureWithIcon from '../components/FeatureWithIcon';
 
 function About() {
   return (
