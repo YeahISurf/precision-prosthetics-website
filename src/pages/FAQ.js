@@ -40,7 +40,7 @@ function FAQ() {
       <HeroSection
         title="Frequently Asked Questions"
         subtitle="Find answers to common questions about prosthetics, orthotics, and our services. If you don't see the information you're looking for, our team is always here to help."
-        backgroundImage="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+        backgroundImage="https://i.imgur.com/vC5vsGH.jpg"
         height="50vh"
       />
 
