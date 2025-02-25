@@ -48,6 +48,8 @@ function BlogPostCard({ post }) {
         transform: 'translateY(-8px)',
         boxShadow: 'xl',
       }}
+      display="flex"
+      flexDirection="column"
     >
       <Box height="220px" overflow="hidden">
         <Image
@@ -60,17 +62,17 @@ function BlogPostCard({ post }) {
           _hover={{ transform: 'scale(1.05)' }}
         />
       </Box>
-      <Box p={6}>
+      <Box p={6} flex="1" display="flex" flexDirection="column">
         <Text fontSize="sm" color="brand.500" fontWeight="semibold" mb={2}>
           {post.date}
         </Text>
         <Heading as="h3" size="md" mb={3} lineHeight="1.4">
           {post.title}
         </Heading>
-        <Text color="gray.600" mb={4} noOfLines={3}>
+        <Text color="gray.600" mb={4} flex="1">
           {post.excerpt}
         </Text>
-        <Flex justify="flex-end">
+        <Flex justify="flex-end" mt="auto">
           <Text
             as={RouterLink}
             to={`/blog/${post.id}`}
