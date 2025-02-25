@@ -10,10 +10,34 @@ import Testimonials from './pages/Testimonials';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Resources from './pages/Resources';
+import customTheme from './theme';
+import { Global, css } from '@emotion/react';
+
+const GlobalStyles = () => (
+  <Global
+    styles={css`
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+      
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      body {
+        transition: background-color 0.2s ease;
+      }
+      
+      ::selection {
+        background-color: #1861ff;
+        color: white;
+      }
+    `}
+  />
+);
 
 function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={customTheme}>
+      <GlobalStyles />
       <Router>
         <Header />
         <Routes>
