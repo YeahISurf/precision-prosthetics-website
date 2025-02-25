@@ -10,6 +10,7 @@ import Testimonials from './pages/Testimonials';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Resources from './pages/Resources';
+import ScrollToTop from './components/ScrollToTop';
 import customTheme from './theme';
 import { Global, css } from '@emotion/react';
 
@@ -39,6 +40,7 @@ function App() {
     <ChakraProvider theme={customTheme}>
       <GlobalStyles />
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
