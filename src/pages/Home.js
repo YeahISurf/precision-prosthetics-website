@@ -46,7 +46,7 @@ function Home() {
         ctaLink="/services"
         secondaryCtaText="Get In Touch"
         secondaryCtaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1584472095996-4a50e80d3600?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
         height="100vh"
       />
 
@@ -198,10 +198,10 @@ function Home() {
           left={0}
           width="100%"
           height="100%"
-          bgImage="url('https://images.unsplash.com/photo-1629131515837-638a7a942ba1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          bgImage="url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
           bgSize="cover"
           bgPosition="center"
-          filter="brightness(0.4)"
+          filter="brightness(0.3)"
           zIndex={-1}
         />
 
@@ -241,31 +241,33 @@ function Home() {
                 solution tailored to your unique needs.
               </Text>
 
-              <Stack direction={['column', 'row']} spacing={5}>
-                <Button
-                  as={RouterLink}
-                  to="/contact"
-                  size="lg"
-                  colorScheme="brand"
-                  px={8}
-                  fontSize="lg"
-                >
-                  Schedule a Consultation
-                </Button>
-                <Button
-                  as={RouterLink}
-                  to="/about"
-                  size="lg"
-                  variant="outline"
-                  color="white"
-                  borderColor="white"
-                  px={8}
-                  fontSize="lg"
-                  _hover={{ bg: 'whiteAlpha.200' }}
-                >
-                  Learn More About Us
-                </Button>
-              </Stack>
+              <Flex justify="center" width="100%">
+                <Stack direction={['column', 'row']} spacing={5}>
+                  <Button
+                    as={RouterLink}
+                    to="/contact"
+                    size="lg"
+                    colorScheme="brand"
+                    px={8}
+                    fontSize="lg"
+                  >
+                    Schedule a Consultation
+                  </Button>
+                  <Button
+                    as={RouterLink}
+                    to="/about"
+                    size="lg"
+                    variant="outline"
+                    color="white"
+                    borderColor="white"
+                    px={8}
+                    fontSize="lg"
+                    _hover={{ bg: 'whiteAlpha.200' }}
+                  >
+                    Learn More About Us
+                  </Button>
+                </Stack>
+              </Flex>
             </Flex>
           </motion.div>
         </Container>
