@@ -3,19 +3,19 @@ export const services = [
     id: 1,
     title: 'Custom Prosthetic Design',
     description: 'Tailored solutions for upper and lower limb prosthetics, designed for comfort and functionality.',
-    image: 'https://images.unsplash.com/photo-1584472095996-4a50e80d3600?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
+    image: 'https://i.imgur.com/QjJHLpP.jpg',
   },
   {
     id: 2,
     title: 'Orthotic Bracing Solutions',
     description: 'Advanced orthotic braces and supports to enhance mobility and quality of life.',
-    image: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
+    image: 'https://i.imgur.com/lCKj2S8.jpg',
   },
   {
     id: 3,
     title: 'Rehabilitation and Therapy',
     description: 'Comprehensive therapy and support to help you adapt and thrive.',
-    image: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=500&q=80',
+    image: 'https://i.imgur.com/GU0tmXP.jpg',
   },
   {
     id: 4,
