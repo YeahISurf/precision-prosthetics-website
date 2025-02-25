@@ -15,6 +15,7 @@ import {
   Icon,
   useBreakpointValue,
   Stack,
+  useToast,
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
@@ -27,6 +28,7 @@ import SectionHeading from '../components/SectionHeading';
 
 function Contact() {
   const formLayout = useBreakpointValue({ base: '1fr', md: '1fr 1fr' });
+  const toast = useToast();
 
   const formik = useFormik({
     initialValues: {
@@ -48,12 +50,23 @@ function Contact() {
       emailjs
         .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', values, 'YOUR_USER_ID')
         .then(() => {
-          alert('Message sent successfully!');
+          toast({
+            title: "Message sent!",
+            description: "We've received your message and will get back to you soon.",
+            status: "success",
+            duration: 5000,
+            isClosable: true
+          });
           resetForm();
         })
-        .catch((error) => {
-          alert('Failed to send message. Please try again.');
-          console.error('EmailJS error:', error);
+        .catch(() => {
+          toast({
+            title: "Error",
+            description: "Failed to send message. Please try again.",
+            status: "error",
+            duration: 5000,
+            isClosable: true
+          });
         })
         .finally(() => {
           setSubmitting(false);

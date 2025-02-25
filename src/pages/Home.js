@@ -6,7 +6,6 @@ import {
   Text,
   Button,
   Stack,
-  useBreakpointValue,
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
