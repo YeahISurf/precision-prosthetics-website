@@ -29,7 +29,7 @@ export const testimonials = [
   },
   {
     id: 5,
-    quote: "My daughter's pediatric prosthetic has been life-changing for our family. The team was so patient and understanding with her needs, making the adjustment period so much easier.",
+    quote: "My daughter's pediatric prosthetic has been life-changing for our family. The team was patient and understanding with her needs.",
     name: "David K.",
     title: "Parent of Pediatric Patient",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",

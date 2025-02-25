@@ -14,6 +14,9 @@ function PremiumTestimonial({ testimonial }) {
         boxShadow="0 5px 20px rgba(0, 0, 0, 0.08)"
         borderRadius="xl"
         position="relative"
+        height="100%"
+        display="flex"
+        flexDirection="column"
       >
         <Flex mb={6}>
           {[...Array(5)].map((_, i) => (
@@ -31,11 +34,11 @@ function PremiumTestimonial({ testimonial }) {
           opacity={0.4}
         />
 
-        <Text fontSize="lg" fontStyle="italic" mb={6} color="neutral.700" lineHeight="1.8">
+        <Text fontSize="lg" fontStyle="italic" mb={6} color="neutral.700" lineHeight="1.8" flex="1">
           "{testimonial.quote}"
         </Text>
 
-        <Flex align="center">
+        <Flex align="center" mt="auto">
           <Image
             src={testimonial.image}
             alt={testimonial.name}

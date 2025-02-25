@@ -81,6 +81,7 @@ function Contact() {
         bg="brand.500"
         py={16}
         position="relative"
+        mt={0} // Add top margin to prevent overlap
         _before={{
           content: '""',
           position: 'absolute',
@@ -94,7 +95,7 @@ function Contact() {
           transform: 'scaleX(1.5)',
         }}
       >
-        <Container maxW="container.xl" position="relative">
+        <Container maxW="container.xl" position="relative" zIndex={5}>
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
