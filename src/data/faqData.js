@@ -9,7 +9,7 @@ export const faqCategories = [
       },
       {
         question: 'What makes Precision Prosthetics different from other providers?',
-        answer: 'At Precision Prosthetics, we combine cutting-edge technology with compassionate care to create personalized solutions. Our team takes the time to understand each patient's unique needs and goals, ensuring that every prosthetic and orthotic device is tailored to provide optimal comfort, functionality, and aesthetic appeal. We pride ourselves on our ongoing support and commitment to helping our patients achieve their full potential.',
+        answer: 'At Precision Prosthetics, we combine cutting-edge technology with compassionate care to create personalized solutions. Our team takes the time to understand each patient\'s unique needs and goals, ensuring that every prosthetic and orthotic device is tailored to provide optimal comfort, functionality, and aesthetic appeal. We pride ourselves on our ongoing support and commitment to helping our patients achieve their full potential.',
       },
       {
         question: 'Do I need a referral to make an appointment?',
@@ -89,7 +89,7 @@ export const faqCategories = [
       },
       {
         question: 'What should I expect during the initial adjustment period?',
-        answer: 'During the initial adjustment period, it's normal to experience some discomfort as your residual limb adapts to the prosthetic socket. You may notice changes in the size and shape of your residual limb, requiring adjustments to your prosthetic device. Fatigue is common as your body works harder to adapt to the new way of moving. Our team will monitor your progress closely, making necessary adjustments and providing guidance to minimize discomfort and optimize function.',
+        answer: 'During the initial adjustment period, it\'s normal to experience some discomfort as your residual limb adapts to the prosthetic socket. You may notice changes in the size and shape of your residual limb, requiring adjustments to your prosthetic device. Fatigue is common as your body works harder to adapt to the new way of moving. Our team will monitor your progress closely, making necessary adjustments and providing guidance to minimize discomfort and optimize function.',
       },
     ],
   },
